@@ -1,0 +1,21 @@
+<!DOCTYPE >
+<html>
+<head>
+<title></title>
+</head>
+    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+	<body>
+		<div id="app">
+		<h2>your input is {{message}}</h2>
+        <input type="text" v-model="message">
+		</div>
+		<script>
+			let hit = new Vue({
+			  el: '#app',
+			  data: {
+				  message:'hello  a world'
+			  }
+			})
+		</script>
+	</body>
+</html>
